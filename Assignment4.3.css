@@ -1,0 +1,17 @@
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	margin: auto;
+	text-align: center;
+	color: white;
+	line-height: 100px;
+	transition-property: background, border-radius; /* properties that will be transitioned*/
+  	transition-duration: 1s, 1s; /*duration for transition for individual properties*/
+  	transition-timing-function: linear; /*transition moving in a constant speed from one state to another - linear*/
+}
+
+.box:hover {
+	background: orange;
+	border-radius: 50%; /* for making a square to circle*/
+}
